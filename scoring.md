@@ -18,8 +18,20 @@ This variation on *Classic* better rewards making zero contracts at higher numbe
 
 ### Classic with progressive scoring
 
-This variation on *Classic* rewards succesful contracts much better the higher the value of the contract, and encourages riskier bidding.
+These variations on *Classic* reward succesful contracts much better the higher the value of the contract, and encourage riskier bidding.
+
+#### Agressive
+
+Has the caveat that successful contracts of more than 6 tricks can be game-ending, use with caution in games that go to 13.
 - If a contract for more than zero has been met, the player gains points equal to the square of the contract plus 10.
+
+#### Moderate
+
+- If a contract for more than zero has been met, the player gains points equal to the contract'th Triangle Number plus 10. For example, a met contract of 5 tricks scores 15+10=25 points, and a met contract of 3 tricks scores 6+10=16 points.
+
+#### Conservative
+
+- If a contract for more than zero has been met, the player gains points equal to three times the contract plus 10.
 
 ## Oy Vey
 
